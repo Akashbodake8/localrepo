@@ -3,9 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration Form</title>
+    <style>
+
+        table{
+            text-align: center;
+            margin:20px auto;
+            background-color:rgb(7, 158, 205);
+            box-shadow: 4px 8px 16px gray;
+            border-radius: 100px;
+            padding: 10px;
+            font-size: large;
+            font-family: sans-serif;
+        }
+
+        input[type="submit"]{
+            padding:5px 15px;
+            background-color: rgb(212, 19, 246);
+            border-radius: 10px;
+            
+        }
+
+        input[type="submit"]:active{
+            padding:5px 15px;
+            background-color: blue;
+            border-radius: 10px;
+            color: aqua;
+            outline: none;
+            
+        }
+
+     
+    </style>
 </head>
 <body>
+    <form action="/"  method="get">
+        
+        <table  width="1000px" height="800px">
+            <tr>
+                <td colspan="2">
+                    <h1>Student Form</h1>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="userName">User Name:</label></td>
+                <td><input type="text" name="userName" id="userName " placeholder="Enter Valid Name"></td>
+            </tr>
+            <tr>
+                <td><label for="Email">Email:</label></td>
+                <td><input type="email" name="Email" id="Email" placeholder="Enter Valid Email" value="abcd123@gmail.com">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="pass">Password:</label></td>
+                <td><input type="password" name="pass" id="pass"></td>
+            </tr>
+            <tr>
+                <td><label for="mobile">Mobile:</label></td>
+                <td><input type="tel" name="mobile" id="mobile" minlength="9" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td><label for="age">Age:</label></td>
+                <td><input type="radio" name="age id="age">Male
+                <input type="radio" name="age id="age">Female
+                <input type="radio" name="age id="age">Rather to not say 
+               
+                </td>
+            </tr>
+
+
+            <tr>
+                <td><label for="Languages">Languages:</label></td>
+                <td>
+                    <input type="checkbox" name="Languages" id="Languages"> Marathi
+                    <input type="checkbox" name="Languages" id="Languages"> Hindi
+                    <input type="checkbox" name="Languages" id="Languages"> English
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Country">Country</label>
+                </td>
+                <td >
+                    
+                    <select name="Country" id="Country" style="width:52%; padding:3px 0px; font-weight: bold;">
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="UK">UK</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="countries">countries</label>
+                </td>
+                <td >
+                    <input type="text " list="countries" name="countries" >
+                    <datalist name="countries" id="countries" style="width:100%; font-weight: bold;">
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="UK">UK</option>
+                    </datalist>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="textArea">Feedback:</label></td>
+                <td>
+                    <textarea name="textArea" id="textArea" cols="30" rows="10">    </textarea>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+
     
+        </table>
+    </form>
 </body>
 </html>
