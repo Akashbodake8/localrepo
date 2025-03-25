@@ -1,0 +1,39 @@
+header{
+
+    font-size: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Times New Roman';
+    color: red;
+    padding-left: 550px;
+
+}
+
+p{
+
+column-count:3;
+text-align: justify;
+font-size: large;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+column-rule: solid red;
+column-gap: 50px;
+font-family: 'Times New Roman';
+float: left;
+
+
+
+}
+
+img{
+
+    height: 150px;
+    width :150px ;
+    float: left;
+    margin-right: 10px;
+    
+}
+
+p::first-letter{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
