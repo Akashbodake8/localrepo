@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .parent{
     border-style: solid;
     
@@ -53,4 +54,61 @@ right: 0;
 .child5{
 top: 45%;
 left: 45%;
+=======
+.parent{
+    border-style: solid;
+    
+    background: rgb(14,10,108);
+background: linear-gradient(90deg, rgba(14,10,108,1) 19%, rgba(82,139,61,0.9752275910364145) 73%);
+    color: aliceblue;
+    height: 400px;
+    width: 400px;
+    padding: 0%; 
+    position: relative;
+    margin-left: 20%;
+
+
+}
+.child{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    border-style: solid;
+    background: rgb(1,0,9);
+    background: linear-gradient(93deg, rgb(92, 229, 156) 20%, rgba(58, 122, 77, 0.975) 76%);
+    color: aliceblue;
+    padding: 0px;
+    
+
+
+    
+
+}
+
+.child1{
+top: 0;
+left: 0;
+}
+.child2{
+top: 0;
+right: 0;
+
+}
+.child3{
+bottom: 0;
+left: 0;
+
+}
+.child4{
+bottom: 0;
+right: 0;
+
+}
+.child5{
+top: 45%;
+left: 45%;
+>>>>>>> f8f59c2 (Sucessfully added Assignment 2)
 }

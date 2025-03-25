@@ -1,0 +1,46 @@
+header{
+    
+    border-style: solid;
+    margin-bottom: 10px;
+    padding: 30px;
+    margin-right: 1700px;
+
+}
+
+.parent{
+    color: rgb(0, 0, 0);
+    background-color: whitesmoke;
+    padding: 20px;
+    /* padding-bottom: 500px; */
+    width: 500px;
+    height: 500px;
+    margin-right: 1200px;
+    /* margin-bottom: 1000px; */
+    position: relative;
+    border-style: solid;
+    border-color: red;
+    background-color:black;
+    background:linear-gradient(120deg ,green , red);
+    display: flex;
+    align-items: end; /*vertical*/
+    justify-content: end;  /*horizontal*/
+    
+}
+
+
+.child{
+
+    size: 00px;
+    
+    border-style: solid;
+    border-color: white;
+    padding: 20px;
+    margin-left: 10px;
+    background-color: red;
+    border-style: solid;
+    background:linear-gradient(80deg ,rgb(131, 114, 172),rgb(59, 59, 100));
+    align-items: start; /*vertical*/
+    justify-content: center;  /*horizontal*/
+    
+    
+}
