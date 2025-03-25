@@ -1,0 +1,21 @@
+h4{
+    background: rgb(1,0,9);
+    background: linear-gradient(93deg, rgba(1,0,9,1) 20%, rgba(8,21,106,0.9752275910364145) 76%);
+    color: aliceblue;
+    padding: 30px;
+}
+
+h5{
+    background: rgb(42,27,171);
+    background: linear-gradient(93deg, rgba(42,27,171,1) 20%, rgba(35,103,70,0.9752275910364145) 76%);
+    color: aliceblue;
+    padding: 30px;
+}
+
+a{
+    border-style: solid;
+    background: rgb(1,0,9);
+    background: linear-gradient(93deg, rgba(1,0,9,1) 20%, rgba(8,21,106,0.9752275910364145) 76%);
+    color: aliceblue;
+    padding: 10px;
+}
