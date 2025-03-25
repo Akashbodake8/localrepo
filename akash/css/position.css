@@ -1,0 +1,68 @@
+header{
+    
+    border-style: solid;
+    margin-bottom: 10px;
+    padding: 30px;
+    margin-right: 1700px;
+    background-color:orangered;
+    text-decoration :w;
+}
+
+.parent{
+    color: rgb(0, 0, 0);
+    background-color: whitesmoke;
+    padding: 20px;
+    padding-bottom: 500px;
+    margin-right: 1200px;
+    margin-bottom: 1000px;
+    position: relative;
+    border-style: solid;
+    border-color: red;
+    background-color:black;
+    background:linear-gradient(120deg ,green , red)
+    
+}
+
+
+.child{
+
+    size: 00px;
+    position: absolute;
+    border-style: solid;
+    border-color: white;
+    padding: 20px;
+    background-color: red;
+    border-style: dotted;
+    background:linear-gradient(120deg ,red,blue)
+    
+}
+.child1
+{
+
+    top: 0px;
+    left: 0px;
+
+}
+
+.child2{
+    top: 0px;
+    right: 0px;
+
+}
+
+.child3{
+
+    bottom: 0px;
+    left: 0px;
+
+}
+.child4{
+
+    bottom: 0px;
+    right: 0px;
+}
+
+.child5{
+    top: 45%;
+    left: 45%;
+}
