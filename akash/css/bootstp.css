@@ -1,0 +1,11 @@
+.container{
+
+    border-style: solid;
+    border-radius: px;
+}
+.col{
+
+    text-align: center;
+    border-style: solid;
+    margin: 5px;
+}
