@@ -1,0 +1,50 @@
+div{
+    padding:px;
+    font-size: 50px;
+    justify-content: center;
+    font-weight: bold;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
+   
+ 
+}
+body {
+    background: linear-gradient(to right, #784bbb, #cd6b6b, #784bbb);
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;}
+
+.cl7{
+
+    height: 50%;
+    text-align: center;
+}
+
+.cl8{
+
+    height: 50%;
+    text-align: center;
+}
+
+.textc{
+    text-align: center;
+}
+
+.cl16{
+    height: 40%;
+}
+.cl1517{
+
+    height: 30%;
+}
+
+.ro4{
+
+    width: 25%;
+
+}
+.ro5{
+
+    width: 37.5%;
+
+}
+
+
